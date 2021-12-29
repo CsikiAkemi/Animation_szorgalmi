@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#464F4C"
+    >
+
+    <ImageView
+        android:id="@+id/ImV"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:scaleType="center"
+        android:src="@drawable/mandala"
+        android:contentDescription="@string/todo"
+       />
+
+    <Button
+        android:id="@+id/btnBlink"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:layout_weight="10"
+        android:backgroundTint="#ADABCD"
+        android:text="@string/blink"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="ObsoleteLayoutParam"
+        />
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:layout_weight="10"
+        android:text="@string/move"
+        tools:ignore="ObsoleteLayoutParam"
+        android:backgroundTint="#ADABCD"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+
+        android:id="@+id/btnZoom"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="@string/zoom"
+        android:textColor="@color/black"
+        android:backgroundTint="#ADABCD"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:text="@string/stop_animation"
+        android:textColor="@color/black"
+        android:backgroundTint="#ADABCD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
